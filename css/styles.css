@@ -1,0 +1,244 @@
+/* General Styling*/
+body {
+  font-family: "Montserrat", sans-serif;
+}
+a {
+  color: #06c;
+}
+img {
+  max-width: 100%;
+}
+.white {
+  color: #fff;
+}
+.black {
+  color: #1d1d1f;
+}
+.grey {
+  color: #86868b;
+}
+.top-50 {
+  margin-top: 50px;
+}
+.top-100 {
+  margin-top: 100px;
+}
+/* Header Style */
+.nav-wrapper {
+  background: rgba(0, 0, 0, 0.8);
+  font-size: 0.85em;
+  font-weight: 200;
+}
+.nav-wrapper ul li a {
+  color: #fff;
+}
+.navbar-toggler {
+  color: #fff;
+}
+.nav-item {
+  text-align: left !important;
+  padding: 4px 0;
+  border-bottom: 1px solid #4b4b4b;
+}
+
+/* Footer Styling */
+.footer-wrapper {
+  background-color: #f5f5f7;
+  color: #86868b;
+  font-size: 0.7em;
+}
+.footer-wrapper ul {
+  list-style: none;
+  padding-bottom: 10px;
+  padding-inline-start: 0px;
+}
+.footer-wrapper ul a {
+  color: #515154;
+}
+.my-apple-wrapper {
+  padding-bottom: 15px;
+  margin-top: 10px;
+}
+.copyright {
+  margin-top: 15px;
+}
+.footer-country {
+  margin-top: 8px;
+}
+.flag-wrapper {
+  display: inline-block;
+  vertical-align: middle;
+  padding-right: 5px;
+}
+.footer-country-name {
+  display: inline-block;
+  vertical-align: middle;
+}
+.footer-links-terms ul {
+  display: flex;
+}
+.footer-links-terms ul li {
+  padding: 0 10px;
+  border-right: 1px solid #d2d2d7;
+}
+.footer-links-terms ul li:first-child {
+  padding-left: 0;
+}
+.footer-links-terms ul li:last-child {
+  border-right: 0;
+}
+
+.footer-links-wrapper h3 {
+  font-size: 12px;
+  font-weight: 600;
+  color: #1d1d1f;
+}
+.footer-wrapper ul li {
+  padding: 4px 0;
+}
+.upper-text-container {
+  border-bottom: 1px solid #d2d2d7;
+  padding: 17px 0 10px;
+  margin-bottom: 20px;
+}
+.upper-text-container a {
+  color: #515154;
+}
+
+/*Media Query*/
+/* Footer */
+@media (max-width: 768px) {
+  .footer-links-wrapper ul {
+    display: none;
+  }
+  .footer-links-wrapper h3 {
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+  }
+  .footer-links-wrapper h3:after {
+    font-family: "FontAwesome";
+    content: "\f067";
+    padding-left: 10px;
+    position: absolute;
+    right: 25px;
+  }
+}
+@media (min-width: 768px) {
+  /*Nav bar*/
+  .nav-item {
+    text-align: center !important;
+    padding: 0;
+    border-bottom: 0px;
+  }
+  /*Footer styling*/
+  .my-apple-wrapper {
+    border-bottom: 1px solid #d2d2d7;
+  }
+}
+@media (min-width: 992px) {
+  /*Footer styling*/
+  .copyright {
+    margin-top: 10px;
+  }
+  .footer-country {
+    margin-top: 10px;
+  }
+  .footer-links-terms {
+    margin-top: 10px;
+  }
+}
+/* main content */
+
+.links ul li {
+  display: inline-block;
+  justify-content: space-between;
+}
+.product-2 {
+  background-image: url("../images/home/iphone11-pro-bg.jpg");
+  background-position: bottom;
+  background-size: cover;
+  height: 590px;
+  color: white;
+}
+.product-3 {
+  background-image: url("../images/home/iphone11-bg.jpg");
+  background-position: bottom;
+  background-size: cover;
+  height: 590px;
+}
+
+li {
+  list-style: none;
+}
+.container-right,
+.container-left {
+  height: 580px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.container-left {
+  margin-right: 7px;
+}
+.container-right {
+  margin-left: 7px;
+}
+/* product-4 */
+.product-4 .container-left {
+  background-image: url("../images/home/watch-series-5.jpg");
+}
+.product-4 .container-right {
+  background-image: url("../images/home/apple-card.jpg");
+}
+/* product-5 */
+.product-5 .container-left {
+  background-image: url("../images/home/apple-tv-background.jpg");
+}
+.product-5 .container-right {
+  background-image: url("../images/home/air-pods.jpg");
+  background-size: initial;
+  background-position: bottom;
+  background-color: black;
+  color: white;
+}
+/* product-6 */
+.product-6 .container-left {
+  background-image: url("../images/home/mac-laptop.jpg");
+  background-position: bottom;
+  background-size: initial;
+  background-color: #fafafa;
+}
+.product-6 .container-right {
+  background-image: url("../images/home/new-ipad.jpg");
+  background-position: bottom;
+  background-size: initial;
+}
+/* tailer */
+.link-trailer a:after {
+  font-family: "FontAwesome";
+  font-weight: 900;
+  content: "\f144";
+  padding-left: 15px;
+}
+/* links right */
+.product-links ul li a:after {
+  font-family: "FontAwesome";
+  font-weight: 900;
+  content: "\f105";
+  padding-left: 10px;
+}
+
+.servant-logo {
+  margin: 100px 5px 20px 2px;
+}
+.servant-logo {
+  padding-top: 100px;
+}
+.product-links ul li {
+  display: inline-block;
+  margin-left: 5px;
+  text-decoration: none;
+}
+li a {
+  text-decoration: none;
+}
